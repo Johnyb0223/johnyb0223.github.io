@@ -1,0 +1,5 @@
+    In this project, I will be implementing a classic machine learning algorithm, specifically a decision tree. The program
+I write will read in datasets from CSV files, using these datasets to generate a function that can make predictions based
+on data in the dataset. I will then use this function to make predictions and reflect on what it means to test a
+machine-learned function. To implement the decision tree, I will need to utilize object-oriented programming and recursion.
+This project will help me gain an understanding of how to test a machine-learned function and the implications of doing so.

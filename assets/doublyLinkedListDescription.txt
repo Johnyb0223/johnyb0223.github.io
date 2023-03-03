@@ -1,0 +1,6 @@
+    For this project, I will be analyzing the differences between mutable and immutable Linked Lists when extended with a
+remove operation. I will be examining the memory diagrams, implementations, and runtime analysis of both types of lists
+in order to understand their differences. I will be creating a program that implements a Doubly Linked List, then analyzing
+the performance and memory usage. Additionally, I will be adding private fields for improved performance, good OO design,
+and testing the interacting methods of the Linked List. Upon completion, I should have a better understanding of how to
+implement (mutable) lists, how lists work in memory, and how to analyze the runtime of programs.
