@@ -1,29 +1,60 @@
+<!--[Boilerplate HTML Structure]-->
 <!DOCTYPE html>
 <html lang="en">
+
+<!--[Meta-Data]-->
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="./src/indexStyle.css">
     <title>My Portfolio</title>
 </head>
+
+<!--[Main Body]-->
 <body>
+
 <!-- [Main Page Header] -->
 <h1>Welcome to my portfolio!</h1>
 
     <!-- [Main Page Photo] -->
-    <img src="./assets/images/Me.JPG" alt="A picture of me standing in front of the ocean!" style="width:512px;height:683px;">
+    <img class ="center"
+         src="./assets/images/Me.JPG"
+         alt="A picture of me standing in front of the ocean!"
+         style="width:512px;height:683px;">
+
+    <!--[About me Div block]-->
+    <Div class = "ex1">
 
     <!-- [About Me Section] -->
     <h2>About Me!</h2>
 
-        <!-- [Text File Object that contains the About Me text] -->
-        <object data="./assets/txtdocs/aboutMe.txt" type="text/plain"
-            width="1000" style="height: 270px">
-            <a href="./assets/txtdocs/aboutMe.txt">No Support?</a>
-        </object>
+        <!-- [About Me text] -->
+        <p>
+            Hello! I'm Jonathan, a junior studying Computer Science. My primary interests lie in the development of computer
+            systems, computer application design, and mathematics. My past military experience has equipped me with highly
+            developed leadership skills, as well as the capacity to collaborate with others in an effective manner. In addition,
+            working in an academic research environment has given me the opportunity to hone my communication abilities, both
+            written and verbal.
 
-    <!-- [List of links to website subpages] -->
-    <ul>
-        <li><a href="./src/computerScienceProjects.html">My Projects</a></li>
+            Above all, my curiosity drives me towards learning and exploring new concepts and ideas!
 
-    </ul>
+            Through coursework and personal interests, I have built a solid foundation in computer science. My programming skills
+            consist of multiple languages such as Java, Python, and C++, as well as a solid understanding of fundamental concepts
+            such as recursion, time complexity, and various programming paradigms. I understand the importance of producing
+            efficient programs and have experience in constructing complete test suites to make sure an application satisfies its
+            specifications. I am looking to expand my computer systems, relational database, and UI/UX skills through personal
+            programming projects. I am searching for internship/work oppurtunities that provide a solid mentor-mentee relationship,
+            as I believe that learning from professionals with industry experience is an optimal way to improve my comprehension of
+            concepts and ideas.
+            <!-- [List of links to website subpages] -->
+            <ul align ="center">
+                <li><a href="./src/computerScienceProjects.html">My Projects</a></li>
+            </ul>
+
+        </p>
+
+    </Div>
+
+
+
 </body>
 </html>
